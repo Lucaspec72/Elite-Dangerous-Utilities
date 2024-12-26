@@ -5,7 +5,7 @@
 distance = 46000 #In LY, distance to target
 dryMass = 0 #Mass taken by modules, commodities, ships and outfitting.
 startingFuel = 26000 #Combined mass of the internal fuel tank and the tritium reserves in the cargo hold.
-jumpRange = 500 #Defaults to 500, the best case scenario, probably a good idea to lower it a bit to plan using the worst-case estimate. Note : Last jump ignores this setting.
+jumpRange = 488 #put it slightly below 500 to account for the fact jumps will rarely be the full 500ly. should give a slightly more realistic estimate
 
 # Calculate the number of full jumps, and distance of clearing jump
 fullJumpsCount = distance // jumpRange
