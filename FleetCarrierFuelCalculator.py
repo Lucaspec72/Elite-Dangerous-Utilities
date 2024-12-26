@@ -8,8 +8,8 @@ startingFuel = 26000 #Combined mass of the internal fuel tank and the tritium re
 jumpRange = 500 #Defaults to 500, the best case scenario, probably a good idea to lower it a bit to plan using the worst-case estimate. Note : Last jump ignores this setting.
 
 # Calculate the number of full jumps, and distance of clearing jump
-fullJumpsCount = distance // JumpRange
-clearingJumpDistance = distance % JumpRange
+fullJumpsCount = distance // jumpRange
+clearingJumpDistance = distance % jumpRange
 
 # Define value storage
 remainingFuel = startingFuel
